@@ -33,8 +33,9 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Card className="overflow-hidden transition-all hover:shadow-md">
       <div className="relative aspect-square">
+        {/* Handling image with Next.js Image component */}
         <Image
-          src={product.image || `/placeholder.svg?height=300&width=300`}
+          src={product.image || `/placeholder.svg?height=300&width=300`} // Default placeholder image
           alt={product.title}
           fill
           className="object-cover"
