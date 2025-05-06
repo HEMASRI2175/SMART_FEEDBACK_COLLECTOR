@@ -179,7 +179,7 @@ export default function ConfirmationPage() {
     <div className="flex min-h-screen flex-col">
       <AppHeader />
 
-      <main className="flex-1 bg-gray-50 py-10 dark:bg-gray-900">
+      <main className="flex-1 bg-gray-50 py-10 dark:bg-gray-900 flex min-h-screen flex-col justify-center items-center">
         <div className="container max-w-4xl px-4 md:px-6">
           <div className="mb-8">
             <Link href="/home">
